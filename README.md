@@ -1,13 +1,9 @@
 # Terraform-tutorial
 
 <p align="center">
- <img alt="Terraform Logo" src="https://miro.medium.com/max/1400/0*VI4SttGborxLNEpO.png">
+ <img alt="Terraform Logo" src="https://mktg-content-api-hashicorp.vercel.app/api/assets?product=tutorials&version=main&asset=public%2Fimg%2Fterraform%2Fterraform-iac.png">
 </p>
 
-<p align="center">
- <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/b9t_ir?style=social">
- <img alt="LinkedIn Follow" src="https://shields.io/badge/style-ssbostan-black?logo=linkedin&label=LinkedIn&link=https://www.linkedin.com/in/ssbostan">
-</p>
 
 ## Published articles:
 
