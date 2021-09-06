@@ -23,5 +23,8 @@ If you find any **bugs** in the examples, please file an issue.
 ### TODO:
 
  - [ ] Adding Terraform Azure DevOps
- - [ ] Adding Terraform vcenter
+ - [ ] Adding Terraform Vcenter
+ - [ ] Adding Terraform GitLab
+ - [ ] Adding Terraform Consul
+ - [ ] Adding Terraform Vault
 
