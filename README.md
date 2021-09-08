@@ -7,11 +7,11 @@
 
 ## Published articles:
 
- - [Terraform Tutorial - Part 1 - Docker Introduction](https://itnext.io/Terraform-tutorial-part-1-pipelines-bd1397cf5509)
+ - [Terraform Tutorial - Part 1 - Docker Introduction]()
 
- - [Terraform Tutorial - Part 2 - GitHub Introduction](https://itnext.io/Terraform-tutorial-part-2-pipeline-variables-5e4783aa2c07)
+ - [Terraform Tutorial - Part 2 - GitHub Introduction]()
 
- - [Terraform Tutorial - Part 3 - Kubernetes Introduction](https://itnext.io/Terraform-tutorial-part-2-pipeline-variables-5e4783aa2c07)
+ - [Terraform Tutorial - Part 3 - Kubernetes Introduction]()
 
 
 ## Contributions:
