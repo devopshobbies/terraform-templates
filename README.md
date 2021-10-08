@@ -27,4 +27,6 @@ If you find any **bugs** in the examples, please file an issue.
  - [ ] Adding Terraform GitLab
  - [ ] Adding Terraform Consul
  - [ ] Adding Terraform Vault
+ - [ ] Adding Terraform HA Proxy
+ - [ ] Adding Terraform Grafana
 
