@@ -24,9 +24,5 @@ If you find any **bugs** in the examples, please file an issue.
 
  - [ ] Adding Terraform Azure DevOps
  - [ ] Adding Terraform Vcenter
- - [ ] Adding Terraform GitLab
  - [ ] Adding Terraform Consul
  - [ ] Adding Terraform Vault
- - [ ] Adding Terraform HA Proxy
- - [ ] Adding Terraform Grafana
-
