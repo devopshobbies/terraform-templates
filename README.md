@@ -13,11 +13,11 @@
 
  - [Terraform Tutorial - Part 3 - Kubernetes Introduction]()
 
- - [Terraform Tutorial - Part 3 - Kubernetes Introduction]()
+ - [Terraform Tutorial - Part 4 - Gitlab Introduction]()
 
- - [Terraform Tutorial - Part 3 - Kubernetes Introduction]()
+ - [Terraform Tutorial - Part 5 - HA proxy Introduction]()
 
- - [Terraform Tutorial - Part 3 - Kubernetes Introduction]()
+ - [Terraform Tutorial - Part 6 - Grafana Introduction]()
 
 
 ## Contributions:
