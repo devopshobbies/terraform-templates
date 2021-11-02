@@ -13,6 +13,12 @@
 
  - [Terraform Tutorial - Part 3 - Kubernetes Introduction]()
 
+ - [Terraform Tutorial - Part 3 - Kubernetes Introduction]()
+
+ - [Terraform Tutorial - Part 3 - Kubernetes Introduction]()
+
+ - [Terraform Tutorial - Part 3 - Kubernetes Introduction]()
+
 
 ## Contributions:
 
