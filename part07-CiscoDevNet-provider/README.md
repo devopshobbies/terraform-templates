@@ -27,6 +27,8 @@ Make sure to create a "terraform.tfvars" file and provide all your variables in 
 
 ```
 terraform init
+terraform validate
+terraform fmt
 terraform plan
-terraform apply --auto-approve
+terraform apply
 ```
