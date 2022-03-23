@@ -5,7 +5,7 @@ What you need for this project:
 
 ✅ *Cisco ASA Firewall*
 
-# Initial ASA Configuration
+## Initial ASA Configuration
 First we need to configure SSH on our device so terraform can connect to our firewall.
 ```
 ciscoasa# aaa authentication ssh console LOCAL
@@ -22,7 +22,9 @@ ciscoasa(config)# nameif INSIDE
 ciscoasa(config)# security-level 100
 ciscoasa(config)# route INSIDE 0.0.0.0 0.0.0.0 192.168.45.232
 ```
-# Apply your Terraform code
+## Apply your Terraform code
+Make sure to create a "terraform.tfvars" file and provide all your variables in the file.
+
 ```
 terraform init
 terraform plan
