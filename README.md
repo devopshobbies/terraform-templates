@@ -1,7 +1,7 @@
 # Terraform-tutorial
 
 <p align="center">
- <img alt="Terraform Logo" src="https://mktg-content-api-hashicorp.vercel.app/api/assets?product=tutorials&version=main&asset=public%2Fimg%2Fterraform%2Fterraform-iac.png">
+ <img alt="Terraform Logo" src="image/terraform.png">
 </p>
 
 
