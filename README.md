@@ -9,15 +9,19 @@
 
  - [Terraform Tutorial - Part 1 - Docker Introduction]()
 
- - [Terraform Tutorial - Part 2 - GitHub Introduction]()
+ - [Terraform Tutorial - Part 2 - GitHub Introduction]()InProgress
 
- - [Terraform Tutorial - Part 3 - Kubernetes Introduction]()
+ - [Terraform Tutorial - Part 3 - Kubernetes Introduction]()InProgress
 
- - [Terraform Tutorial - Part 4 - Gitlab Introduction]()
+ - [Terraform Tutorial - Part 4 - Gitlab Introduction]()InProgress
 
- - [Terraform Tutorial - Part 5 - HA proxy Introduction]()
+ - [Terraform Tutorial - Part 5 - HA proxy Introduction]()InProgress
 
- - [Terraform Tutorial - Part 6 - Grafana Introduction]()
+ - [Terraform Tutorial - Part 6 - Grafana Introduction]()InProgress
+
+ - [Terraform Tutorial - Part 7 - cisco DevNet Introduction]()
+
+ - [Terraform Tutorial - Part 8 - Vsphere Introduction]()
 
 
 ## Contributions:
