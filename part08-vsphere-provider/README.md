@@ -1,7 +1,7 @@
 # Create a ready to use in production Virtual Machine with Terraform
 
 ## Create a VMware vSphere virtual machine
-** Login to your Vcenter **
+**Login to your Vcenter**
 
 1- Create a new virtual machine.
 
