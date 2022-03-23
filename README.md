@@ -19,9 +19,18 @@
 
  - [Terraform Tutorial - Part 6 - Grafana Introduction]() InProgress
 
- - [Terraform Tutorial - Part 7 - cisco DevNet Introduction]()
+ - [Terraform Tutorial - Part 7 - Cisco DevNet Introduction]()
 
- - [Terraform Tutorial - Part 8 - Vsphere Introduction]()
+ - [Terraform Tutorial - Part 8 - Vsphere Introduction]() 
+
+ - [Terraform Tutorial - Part 9 - Consul Introduction]() InProgress
+
+ - [Terraform Tutorial - Part 10 - Vault Introduction]() InProgress
+
+ - [Terraform Tutorial - Part 11 - Keycloak Introduction]() InProgress
+
+ - [Terraform Tutorial - Part 12 - Azure DevOps Introduction]() InProgress
+
 
 
 ## Contributions:
@@ -32,8 +41,5 @@ If you find any **bugs** in the examples, please file an issue.
 
 ### TODO:
 
- - [ ] Adding Terraform Azure DevOps
  - [ ] Adding Terraform Vcenter
- - [ ] Adding Terraform Consul
- - [ ] Adding Terraform Vault
- - [ ] Adding Terraform Keycloak
+
