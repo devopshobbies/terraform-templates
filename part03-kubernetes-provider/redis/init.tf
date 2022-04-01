@@ -10,6 +10,6 @@ terraform {
 provider "helm" {
   kubernetes {
     config_path    = "~/.kube/config"
-    config_context = "YOUR_CONTEXT"
+    config_context = var.context
   }
 }
