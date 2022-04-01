@@ -7,21 +7,21 @@
 
 ## Published articles:
 
- - [Terraform Tutorial - Part 1 - Docker Introduction]()
+ - [Terraform Tutorial - Part 1 - Docker Introduction](./part01-docker-provider/)
 
- - [Terraform Tutorial - Part 2 - GitHub Introduction]() InProgress
+ - [Terraform Tutorial - Part 2 - GitHub Introduction](./part02-github-provider/) InProgress
 
- - [Terraform Tutorial - Part 3 - Kubernetes Introduction]() InProgress
+ - [Terraform Tutorial - Part 3 - Kubernetes Introduction](./part03-kubernetes-provider/) InProgress
 
- - [Terraform Tutorial - Part 4 - Gitlab Introduction]() InProgress
+ - [Terraform Tutorial - Part 4 - Gitlab Introduction](./part04-gitlab-provider/) InProgress
 
- - [Terraform Tutorial - Part 5 - HA proxy Introduction]() InProgress
+ - [Terraform Tutorial - Part 5 - HA proxy Introduction](./part05-HA-proxy-provider/) InProgress
 
- - [Terraform Tutorial - Part 6 - Grafana Introduction]() InProgress
+ - [Terraform Tutorial - Part 6 - Grafana Introduction](./part06-grafana-provider/) InProgress
 
- - [Terraform Tutorial - Part 7 - Cisco DevNet Introduction]()
+ - [Terraform Tutorial - Part 7 - Cisco DevNet Introduction](./part07-CiscoDevNet-provider/)
 
- - [Terraform Tutorial - Part 8 - Vsphere Introduction]() 
+ - [Terraform Tutorial - Part 8 - Vsphere Introduction](./part08-vsphere-provider/)
 
  - [Terraform Tutorial - Part 9 - Consul Introduction]() InProgress
 
