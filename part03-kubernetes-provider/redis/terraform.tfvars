@@ -1,7 +1,0 @@
-registry                         = "YOUR REGISTRY"
-repository                       = "YOUR IMAGE REPO"
-storageclass                     = "YOUR STORAGECLASS NAME"
-tag                              = "IMAGE TAG"
-usepass                          = "True or False"
-context                          = "Your K8S Cluster Context Name"
-namespace                        = "Your K8S Cluster Namespace"
