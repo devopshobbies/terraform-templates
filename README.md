@@ -23,13 +23,15 @@
 
  - [Terraform Tutorial - Part 8 - Vsphere Introduction](./part08-vsphere-provider/)
 
- - [Terraform Tutorial - Part 9 - Consul Introduction]() InProgress
+ - [Terraform Tutorial - Part 9 - Helm Introduction](./part09-helm-provider/)
 
- - [Terraform Tutorial - Part 10 - Vault Introduction]() InProgress
+ - [Terraform Tutorial - Part 10 - Consul Introduction]() InProgress
 
- - [Terraform Tutorial - Part 11 - Keycloak Introduction]() InProgress
+ - [Terraform Tutorial - Part 11 - Vault Introduction]() InProgress
 
- - [Terraform Tutorial - Part 12 - Azure DevOps Introduction]() InProgress
+ - [Terraform Tutorial - Part 12 - Keycloak Introduction]() InProgress
+
+ - [Terraform Tutorial - Part 13 - Azure DevOps Introduction]() InProgress
 
 
 
