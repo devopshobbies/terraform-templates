@@ -22,8 +22,9 @@ After downloading Terraform, unzip the package. Terraform runs as a single binar
 
 - step 1 : A way to manage the power of VirtualBox virtual machines via the MAAS webhook driver.
 [github link for help](https://github.com/ssbostan/vboxpower)
-- step 2 : git clone terraform_maas_demo project
-- step 3 : run the following command.
+- step 2 : git clone terraform-tutorial project
+- step 3 : go to part10-maas-provider
+- step 4 : run the following command.
 
 ```
 $ terraform init
@@ -37,7 +38,7 @@ $ export TF_VAR_MAAS_API_KEY="maas API_KEY gnerated"
 
 $ terraform plan
 
-$ terraform apply -auto-approve
+$ terraform apply 
 ```
 
 --------------------------------------------------
