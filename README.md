@@ -25,7 +25,7 @@
 
  - [Terraform Tutorial - Part 9 - Helm Introduction](./part09-helm-provider/)
 
- - [Terraform Tutorial - Part 10 - Maas Introduction](./part10-maas-provider)
+ - [Terraform Tutorial - Part 10 - Maas Introduction](./part10-maas-provider/)
 
  - [Terraform Tutorial - Part 11 - Consul Introduction]() InProgress
 
