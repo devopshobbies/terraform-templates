@@ -36,6 +36,10 @@ $ export TF_VAR_MAAS_API_URL=http://192.168.56.3:5240/MAAS
 ```
 $ export TF_VAR_MAAS_API_KEY="maas API_KEY gnerated"
 
+$ terraform fmt
+
+$ terraform validate
+
 $ terraform plan
 
 $ terraform apply 
