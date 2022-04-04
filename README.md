@@ -9,13 +9,13 @@
 
  - [Terraform Tutorial - Part 1 - Docker Introduction](./part01-docker-provider/)
 
- - [Terraform Tutorial - Part 2 - GitHub Introduction](./part02-github-provider/) InProgress
+ - [Terraform Tutorial - Part 2 - GitHub Introduction](./part02-github-provider/)
 
  - [Terraform Tutorial - Part 3 - Kubernetes Introduction](./part03-kubernetes-provider/) InProgress
 
  - [Terraform Tutorial - Part 4 - Gitlab Introduction](./part04-gitlab-provider/) InProgress
 
- - [Terraform Tutorial - Part 5 - HA proxy Introduction](./part05-HA-proxy-provider/) InProgress
+ - [Terraform Tutorial - Part 5 - HA proxy Introduction](./part05-HA-proxy-provider/)
 
  - [Terraform Tutorial - Part 6 - Grafana Introduction](./part06-grafana-provider/) InProgress
 
