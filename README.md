@@ -17,7 +17,7 @@
 
  - [Terraform Tutorial - Part 5 - HA proxy Introduction](./part05-HA-proxy-provider/)
 
- - [Terraform Tutorial - Part 6 - Grafana Introduction](./part06-grafana-provider/) InProgress
+ - [Terraform Tutorial - Part 6 - Grafana Introduction](./part06-grafana-provider/)
 
  - [Terraform Tutorial - Part 7 - Cisco DevNet Introduction](./part07-CiscoDevNet-provider/)
 
