@@ -35,6 +35,7 @@
 
  - [Terraform Tutorial - Part 14 - Azure DevOps Introduction]() InProgress
 
+ - [Terraform Tutorial - Part 15 - OpenStack Introduction]()
 
 
 ## Contributions:
