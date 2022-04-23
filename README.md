@@ -35,7 +35,7 @@
 
  - [Terraform Tutorial - Part 14 - Azure DevOps Introduction]() InProgress
 
- - [Terraform Tutorial - Part 15 - OpenStack Introduction]()
+ - [Terraform Tutorial - Part 15 - OpenStack Introduction](./part15-openstack-provider/)
 
 
 ## Contributions:
