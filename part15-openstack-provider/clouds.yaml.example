@@ -1,0 +1,8 @@
+clouds:
+  openstack:
+    auth:
+      auth_url: http://192.168.122.10:35357/
+      project_name: demo
+      username: demo
+      password: 1234
+    region_name: RegionOne
