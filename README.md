@@ -11,7 +11,7 @@
 
  - [Terraform Tutorial - Part 2 - GitHub Introduction](./part02-github-provider/)
 
- - [Terraform Tutorial - Part 3 - Kubernetes Introduction](./part03-kubernetes-provider/) InProgress
+ - [Terraform Tutorial - Part 3 - Kubernetes Introduction](./part03-kubernetes-provider/)
 
  - [Terraform Tutorial - Part 4 - Gitlab Introduction](./part04-gitlab-provider/) InProgress
 
