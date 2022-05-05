@@ -31,3 +31,9 @@ resource "gitlab_branch" "branch" {
   project = gitlab_project.project.id
 }
 
+# Create tag
+resource "gitlab_project_tag" "tag" {
+  name    = "my-terraform-tag"
+  ref     = "main"
+  project = gitlab_project.project.id
+}
