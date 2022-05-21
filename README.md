@@ -13,7 +13,7 @@
 
  - [Terraform Tutorial - Part 3 - Kubernetes Introduction](./part03-kubernetes-provider/)
 
- - [Terraform Tutorial - Part 4 - Gitlab Introduction](./part04-gitlab-provider/) InProgress
+ - [Terraform Tutorial - Part 4 - Gitlab Introduction](./part04-gitlab-provider/)
 
  - [Terraform Tutorial - Part 5 - HA proxy Introduction](./part05-HA-proxy-provider/)
 
