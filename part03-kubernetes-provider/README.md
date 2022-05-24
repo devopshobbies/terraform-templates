@@ -15,8 +15,8 @@ This will deploy and install:
 - metalLB 
 - nginx ingress-controller
 - Jenkins
+- Kubernetes Dashboard
 
 ## To do
 - Rancher
 - NFS client provisioner
-- Kubernetes dashboard
