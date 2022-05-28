@@ -10,4 +10,10 @@ resource "docker_container" "nginx" {
     internal = 80
     external = 8000
   }
+
+  volumes {
+    container_path = "/usr/share/nginx/html"
+    host_path      = "/data"
+    read_only      = true
+  }
 }
