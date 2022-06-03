@@ -1,5 +1,5 @@
 resource "kubernetes_namespace" "jenkins_namespace" {
-  count = var.create_namespace ? 1 : 0
+
   metadata {
     annotations = {
       name = "jenkins"

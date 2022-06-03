@@ -21,12 +21,7 @@ variable "namespace" {
 
 variable "storageclass" {
   description = "storageclass to use for creating persistent volume claim, defaults to gp2 of AWS"
-  default     = "gp2"
-}
-
-variable "create_namespace" {
-  description = "to create the namespace or not"
-  type        = bool
+  default     = "managed-nfs-storage"
 }
 
 variable "jenkins_image" {
