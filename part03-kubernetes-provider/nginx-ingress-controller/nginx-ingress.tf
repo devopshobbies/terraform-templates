@@ -1,3 +1,4 @@
+
 resource "helm_release" "nginx_ingress" {
   name             = "ingress-nginx"
   namespace        = "ingress-nginx"
