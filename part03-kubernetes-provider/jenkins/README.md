@@ -10,9 +10,4 @@ $ terraform fmt
 $ terraform validate
 $ terraform apply
 ```
-## What am i deploying?
-This will deploy and install: 
-- metalLB 
-- nginx ingress-controller
-- Jenkins
-- Kubernetes Dashboard
+**Note: Make sure to change values in variables.tf file**

@@ -1,5 +1,5 @@
 resource "kubernetes_namespace" "jenkins_namespace" {
-  count = var.create_namespace ? 1 : 0
+
   metadata {
     annotations = {
       name = "jenkins"
@@ -75,12 +75,7 @@ resource "kubernetes_deployment" "jenkins" {
             name       = "${var.name}-persistent-storage"
             mount_path = "/var/jenkins_home"
           }
-          liveness_probe {
-            http_get {
-              path = "/"
-              port = 8080
-            }
-          }
+          #   TODO: liveness probe
         }
         security_context {
           fs_group = "1000"
@@ -137,7 +132,7 @@ resource "kubernetes_service" "jenkins-service" {
 #   type = "kubernetes.io/service-account-token"
 # }
 
-resource "kubernetes_service_account" "this" {
+resource "kubernetes_service_account" "thia" {
   metadata {
     name      = "${var.name}-admin"
     namespace = var.namespace
