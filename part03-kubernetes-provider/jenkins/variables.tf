@@ -1,20 +1,3 @@
-############## metallb ##############
-variable "metallb_version" {
-  default     = "0.10.2"
-  type        = string
-  description = "MetalLB Version e.g. 0.10.2"
-}
-
-variable "controller_toleration" {
-  default = []
-  type    = list(map(any))
-}
-
-variable "controller_node_selector" {
-  default = {}
-  type    = map(any)
-}
-
 ############# Jenkins ###############
 variable "request_storage" {
   description = "storage for your jenkins installation"
@@ -38,12 +21,7 @@ variable "namespace" {
 
 variable "storageclass" {
   description = "storageclass to use for creating persistent volume claim, defaults to gp2 of AWS"
-  default     = "gp2"
-}
-
-variable "create_namespace" {
-  description = "to create the namespace or not"
-  type        = bool
+  default     = "managed-nfs-storage"
 }
 
 variable "jenkins_image" {
