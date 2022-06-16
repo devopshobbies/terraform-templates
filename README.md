@@ -29,7 +29,7 @@
 
  - [Terraform Tutorial - Part 11 - Consul Introduction]() InProgress
 
- - [Terraform Tutorial - Part 12 - Vault Introduction]() InProgress
+ - [Terraform Tutorial - Part 12 - Vault Introduction]() (./part12-vault-provider)
 
  - [Terraform Tutorial - Part 13 - Keycloak Introduction]() InProgress
 
