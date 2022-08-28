@@ -1,0 +1,10 @@
+1. Install KVM 
+ - dnf install bridge-utils libvirt virt-install qemu-kvm libvirt-devel virt-top libguestfs-tools guestfs-tools
+
+2. Customize OS Image For cloudinit & KVM
+ - virt-customize -a ubuntu-20.04-server-cloudimg-amd64-disk-kvm.img --install qemu-guest-agent
+
+3. Enjoy:
+ - terraform init
+ - terraform plan
+ - terraform apply
