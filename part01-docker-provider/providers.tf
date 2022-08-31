@@ -11,7 +11,6 @@ terraform {
   }
 }
 
-# Configure the docker provider
-# provider "docker" {
-#   host = "unix:///var/run/docker.sock"
-# }
+provider "docker" {
+  host = "tcp://localhost:2376"
+}
