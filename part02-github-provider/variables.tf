@@ -1,5 +1,5 @@
 variable "access_token" {
-    default = "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"
+    default = "ghp_1MVg--------------------om3wiSKe"
     type = string
     description = "value of the token"
 }
