@@ -13,6 +13,7 @@ terraform {
 
 provider "github" {
   # for more authentication ways and other configure options go to https://registry.terraform.io/providers/integrations/github/latest/docs#authentication
+  # for more inforamtion for generate token https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
-  token = "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"   # var.token
+  token = var.access_token   # var.token
 }
