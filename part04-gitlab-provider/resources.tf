@@ -7,14 +7,14 @@ resource "gitlab_project" "project" {
 }
 
 # Create repository file
-resource "gitlab_repository_file" "fiel" {
+resource "gitlab_repository_file" "file" {
   project        = gitlab_project.project.id
-  file_path      = "test.txt"
-  branch         = "main"
-  content        = "lorem ipsum"
-  author_email   = "terraform@example.com"
-  author_name    = "Terraform"
-  commit_message = "feature: add test file"
+  file_path      = var.gitlab_repository_file_details.file_path
+  branch         = var.gitlab_repository_file_details.branch
+  content        = var.gitlab_repository_file_details.content
+  author_email   = var.gitlab_repository_file_details.author_email
+  author_name    = var.gitlab_repository_file_details.author_name
+  commit_message = var.gitlab_repository_file_details.commit_message
 }
 
 # Manage license
