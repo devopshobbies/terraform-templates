@@ -1,0 +1,4 @@
+[new_cloud_server]
+%{ for index,v in ansible_hostname ~}
+${ansible_hostname[index]}  ansible_host=${ansible_ip[index]} ansible_user=${username}  ansible_ssh_private_key_file=${key_path}  ansible_become=true
+%{ endfor ~}
