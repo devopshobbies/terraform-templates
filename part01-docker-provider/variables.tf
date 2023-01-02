@@ -1,7 +1,7 @@
 variable "nginx_version" {
   default     = "docker_image.nginx.latest"
   type        = string
-  description = "value of the nginx contaner tag"
+  description = "value of the nginx container tag"
 }
 variable "ngins_image_version" {
   default     = "nginx:latest"
@@ -16,7 +16,7 @@ variable "container_name" {
 variable "container_host_name" {
   default     = "nginx"
   type        = string
-  description = "value of the hostname of the contianer"
+  description = "value of the hostname of the container"
 }
 
 variable "internal_container_port" {
@@ -27,7 +27,7 @@ variable "internal_container_port" {
 variable "external_container_port" {
   default     = 8000
   type        = number
-  description = "value of the External container port"
+  description = "value of the external container port"
 }
 variable "keep_locally" {
   default     = false
