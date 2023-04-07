@@ -37,7 +37,10 @@
 
  - [Terraform Tutorial - Part 15 - OpenStack Introduction](./part15-openstack-provider/)
 
+ - [Terraform Tutorial - Part 18 - HetznerCloud Introduction](./part18-hetznercloud-provider/)
+
  - [Terraform Tutorial - Part 19 - Cloudflare Introduction](./part18-cloudflare-provider/)
+
 
 ## Contributions:
 
