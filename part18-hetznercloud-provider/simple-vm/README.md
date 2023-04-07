@@ -5,8 +5,8 @@ here we aimed to demonstrate how to create a simple VM in `hetzner cloud` with t
 ## Setup
 
 ```bash
+# add your hetznercloud api-token to values.tfvars file
 echo 'token = ""' > ./values.tfvars
-# add your hetznercloud api token to values.tfvars file
 
 terraform apply -var-file="./values.tfvars"
 ```
