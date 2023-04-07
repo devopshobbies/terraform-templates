@@ -1,7 +1,7 @@
 # Create a docker image resource
 # -> docker pull nginx:latest
 resource "docker_image" "nginx" {
-  name         = var.ngins_image_version
+  name         = var.nginx_image_version
   keep_locally = var.keep_locally
   force_remove = var.force_remove
 }
