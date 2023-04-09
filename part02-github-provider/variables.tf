@@ -22,7 +22,6 @@ variable "repository_details" {
 #This resource allows you to create and manage files within a GitHub repository.
 variable "repository_file_details" {
   type = object({
-    repository          = string
     branch              = string
     file                = string
     content             = string
@@ -40,7 +39,6 @@ variable "repository_file_details" {
     content             = "**/*.tfstate"
     file                = ".gitignore"
     overwrite_on_create = true
-
   }
 }
 
