@@ -3,7 +3,7 @@ variable "nginx_version" {
   type        = string
   description = "value of the nginx container tag"
 }
-variable "ngins_image_version" {
+variable "nginx_image_version" {
   default     = "nginx:latest"
   type        = string
   description = "value of nginex version"
