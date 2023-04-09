@@ -39,3 +39,6 @@ terraform.rc
 # Examples
 debezium*
 *.tar.gz
+
+# Infra Cost extension auto generated directory
+.infracost
