@@ -14,7 +14,7 @@ terraform {
 provider "grafana" {
   url  = "https://grafana.example.com/"  # The root URL of a Grafana server.
   org_id = "1"  # The organization id to operate on within grafana.
-  auth = "username:password"  # This can be a Grafana API key, basic auth username:password, or a Grafana API key.
+  auth = "username:password"  # This can be a Grafana API key or basic auth username:password. Alternatively could be set via the GRAFANA_AUTH environment variable.
   insecure_skip_verify = true  # Skip TLS certificate verification.
 
   # For more authentication ways and for optional options go to: https://registry.terraform.io/providers/grafana/grafana/latest/docs#authentication
