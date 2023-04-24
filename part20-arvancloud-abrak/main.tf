@@ -1,11 +1,4 @@
 terraform {
-  cloud {
-    organization = "MBC"
-
-    workspaces {
-      name = "getting-started"
-    }
-  }
   required_providers {
     arvan = {
       source  = "arvancloud/arvan"
