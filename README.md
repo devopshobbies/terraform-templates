@@ -1,7 +1,7 @@
 # Terraform-tutorial
 
 <p align="center">
- <img alt="Terraform Logo" src="image/terraform.png">
+ <img alt="Terraform Logo" src="image/banner.png">
 </p>In this repository, you can find examples of Terraform providers which can help deepen your Terraform knowledge.
 
 ## Table of Contents
