@@ -16,41 +16,27 @@
 You can find a list of providers below. They can be a guide for you to learn different providers for different services for example Kubernetes, docker, Cloudflare and ...
 It's better to start from [Terraform Tutorial - Part 1 - Docker Introduction](./part01-docker-provider/) and move as the list goes.
 
-## Providers list
+## Providers List:
 
-- [Terraform Tutorial - Part 1 - Docker Introduction](./part01-docker-provider/)
-
-- [Terraform Tutorial - Part 2 - GitHub Introduction](./part02-github-provider/)
-
-- [Terraform Tutorial - Part 3 - Kubernetes Introduction](./part03-kubernetes-provider/)
-
-- [Terraform Tutorial - Part 4 - Gitlab Introduction](./part04-gitlab-provider/)
-
-- [Terraform Tutorial - Part 5 - HA proxy Introduction](./part05-HA-proxy-provider/)
-
-- [Terraform Tutorial - Part 6 - Grafana Introduction](./part06-grafana-provider/)
-
-- [Terraform Tutorial - Part 7 - Cisco DevNet Introduction](./part07-CiscoDevNet-provider/)
-
-- [Terraform Tutorial - Part 8 - Vsphere Introduction](./part08-vsphere-provider/)
-
-- [Terraform Tutorial - Part 9 - Helm Introduction](./part09-helm-provider/)
-
-- [Terraform Tutorial - Part 10 - Maas Introduction](./part10-maas-provider/)
-
-- [Terraform Tutorial - Part 11 - Consul Introduction]() InProgress
-
-- [Terraform Tutorial - Part 12 - Vault Introduction]() (./part12-vault-provider)
-
-- [Terraform Tutorial - Part 13 - Keycloak Introduction]() InProgress
-
-- [Terraform Tutorial - Part 14 - Azure DevOps Introduction]() InProgress
-
-- [Terraform Tutorial - Part 15 - OpenStack Introduction](./part15-openstack-provider/)
-
-- [Terraform Tutorial - Part 18 - HetznerCloud Introduction](./part18-hetznercloud-provider/)
-
-- [Terraform Tutorial - Part 19 - Cloudflare Introduction](./part18-cloudflare-provider/)
+| Icon | num | Terraform Tutorials                                               | Status         |
+| ---- | --- | ----------------------------------------------------------------- | -------------- |
+| 🐳   | 1   | [Docker Provider](./part01-docker-provider/README.md)             | ✅ Done        |
+| 🐙   | 2   | [GitHub Provider](./part02-github-provider/README.md)             | ✅ Done        |
+| ☸️   | 3   | [Kubernetes Provider](./part03-kubernetes-provider/README.md)     | ✅ Done        |
+| 🦊   | 4   | [GitLab Provider](./part04-gitlab-provider/README.md)             | ✅ Done        |
+| 🍀   | 5   | [HAProxy Provider](./part05-HA-proxy-provider/README.md)          | ✅ Done        |
+| 📈   | 6   | [Grafana Provider](./part06-grafana-provider/README.md)           | ✅ Done        |
+| 🤖   | 7   | [Cisco DevNet Provider](./part07-CiscoDevNet-provider/README.md)  | ✅ Done        |
+| 🖥️   | 8   | [Vsphere Provider](./part08-vsphere-provider/README.md)           | ✅ Done        |
+| 🎓   | 9   | [Helm Provider](./part09-helm-provider/README.md)                 | ✅ Done        |
+| 🚧   | 10  | [MAAS Provider](./part10-maas-provider/README.md)                 | 🚧 In Progress |
+| 🌀   | 11  | [Consul Provider](./part11-consul-provider/README.md)             | 🚧 In Progress |
+| 🔑   | 12  | [Vault Provider](./part12-vault-provider/README.md)               | ✅ Done        |
+| 🎓   | 13  | [Keycloak Provider](./part13-keycloak-provider/README.md)         | 🚧 In Progress |
+| ☁️   | 14  | [Azure DevOps Provider](./part14-azure-devops-provider/README.md) | 🚧 In Progress |
+| 🌎   | 15  | [OpenStack Provider](./part15-openstack-provider/README.md)       | ✅ Done        |
+| 🦄   | 18  | [HetznerCloud Provider](./part18-hetznercloud-provider/README.md) | ✅ Done        |
+| 🌩️   | 19  | [Cloudflare Provider](./part19-cloudflare-provider/README.md)     | ✅ Done        |
 
 ## How to contribute?
 
