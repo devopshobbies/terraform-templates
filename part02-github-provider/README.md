@@ -1,3 +1,5 @@
+<img src="../image/github-provider-banner.jpg">
+
 # GitHub Repository Automation with Terraform
 
 This Terraform code automates the creation of a new GitHub repository, adds a file to it, and creates a new branch within it. The code is written in HashiCorp Configuration Language (HCL) and uses Terraform to manage the resources.
