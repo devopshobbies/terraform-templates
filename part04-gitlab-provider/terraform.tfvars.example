@@ -1,1 +1,34 @@
 gitlab_token = "<your-access-token-goes-here>"
+branch_name = "<Your branch name here>"
+tag_name = "bug"
+ref = "main"
+
+variable "ref" {
+  type        = string
+  default     = "main"
+  description = "The ref which the branch is created from."
+}
+
+project = {
+  "name"                   = "my-gitlab-project"
+  "description"            = "My GitLab project description"
+  "visibility_level"       = "public"
+  "initialize_with_readme" = true
+}
+
+gitlab_repository_file_details = {
+  author_email        = "terraform@example.com"
+  author_name         = "Terraform"
+  branch              = "main"
+  commit_message      = "feature: add test file"
+  content_text        = "lorem ipsum"
+  content_git         = "**/*.tfstate"
+  file_path_text      = "test.txt"
+  file_path_gitignore = ".gitignore"
+}
+
+
+gitlab_managed_license_details = {
+  name            = "MIT license"
+  approval_status = "allowed"
+}

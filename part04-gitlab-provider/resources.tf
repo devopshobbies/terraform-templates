@@ -1,10 +1,11 @@
 # Create project
 resource "gitlab_project" "project" {
-  name        = var.project.name
-  description = var.project.description
-  visibility_level = var.project.visibility_level
+  name                   = var.project.name
+  description            = var.project.description
+  visibility_level       = var.project.visibility_level
   initialize_with_readme = var.project.initialize_with_readme
 }
+
 
 # Create repository file
 resource "gitlab_repository_file" "text" {
@@ -47,4 +48,35 @@ resource "gitlab_project_tag" "tag" {
   name    = var.tag_name
   ref     = var.ref
   project = gitlab_project.project.id
+}
+
+# Add a bug label
+resource "gitlab_label" "bug" {
+  name        = "bug"
+  color       = "#000" // Set the color
+  description = "This label determines that the issue is reporting a bug"
+
+  project = gitlab_project.project.id
+}
+
+# Gitlab pipeline schedule
+resource "gitlab_pipeline_schedule" "example" {
+  project     = gitlab_project.project.id
+  description = "Used to schedule builds"
+  ref         = "master"
+  cron        = "0 1 * * *"
+}
+
+
+# Schedule gitlab_pipeline_schedule_variable
+resource "gitlab_pipeline_schedule_variable" "example" {
+  project              = gitlab_project.project.id
+  pipeline_schedule_id = gitlab_pipeline_schedule.example.id
+  key                  = "EXAMPLE_KEY"
+  value                = "example"
+}
+
+resource "gitlab_pipeline_trigger" "example" {
+  project     = gitlab_project.project.id
+  description = "Used to trigger builds"
 }
