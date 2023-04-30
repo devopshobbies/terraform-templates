@@ -1,6 +1,6 @@
 # Terraform for your Gitlab
 
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1614300785186/RIcnyRMzx.png" style="padding: 10px">
+<img src="../image/Gitlab-provider-banner.jpg" style="padding: 10px">
 
 ## Contents
 
