@@ -1,3 +1,5 @@
+<img src="../image/docker-provider-banner.jpg">
+
 # About The Template
 
 This Terraform configuration file describes infrastructure as code for deploying a Docker container running the Nginx web server.
