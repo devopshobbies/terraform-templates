@@ -1,5 +1,7 @@
 # Terraform for your Gitlab
 
+<img src="../image/Gitlab-provider-banner.jpg" style="padding: 10px">
+
 ## Contents
 
 - [Overview](#overview)
@@ -9,13 +11,18 @@
 
 ## Overview
 
-This repo contains Terafform codes to interact with GitLab resources, like users, groups, projects and more. You must configure the provider with the proper credentials before you can use it.
+This repository contains terraform codes to interact with GitLab resources, like users, groups, projects and more. Take a tour and check the files so you can have a good understanding of what is happening and how the provider is defined.
+It's better to implement the example once after you read and check the code so you can learn more about it.
 
-## How to use?
+## How to setup?
 
-Create your own `terraform.tfvars` and copy `terraform.tfvars.example` to it
+Copy the `terraform.tfvars.exmaple` and rename it to `terraform.tfvars`:
 
-Check your provider version and initialize Terraform.
+```bash
+cp terraform.tfvars.example terraform.tfvars
+```
+
+Then you can use below commands to test the provider.
 
 ```bash
 terraform init
@@ -40,9 +47,9 @@ terraform destroy
 - [x] Manage license of a project
 - [x] Create a new branch
 - [x] Create a tag
-- [ ] Manage labels of a project
-- [ ] Manage scheduled pipeline
-- [ ] Manage pipelines
+- [x] Manage labels of a project
+- [x] Manage scheduled pipeline
+- [x] Manage pipelines
 
 ## Contribute
 
