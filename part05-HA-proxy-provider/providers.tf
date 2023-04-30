@@ -1,9 +1,9 @@
 # Adding terraform version and terraform provider version on Terraform block
 terraform {
   required_providers {
-    docker = {
+    haproxy = {
       source  = "matthisholleville/haproxy"
-      version = "0.2.2"
+      version = "0.2.3"
     }
   }
 }
