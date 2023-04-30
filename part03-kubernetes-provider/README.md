@@ -1,3 +1,4 @@
+<img src="../image/kubernetes-provider-banner.jpg">
 # Terraform for your kubernetes
 
 This directory contains Terraform codes to deploy different services and applications on your Kubernetes cluster.
