@@ -1,3 +1,7 @@
-output "details-abrak-1" {
-  value = data.arvan_iaas_abrak.get_abrak_id
+output "abrak_id" {
+  value = module.abrak.id
+}
+
+output "abrak_ip_addresses" {
+  value = module.abrak.ip_addresses
 }
