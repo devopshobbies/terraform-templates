@@ -7,22 +7,14 @@ terraform {
   }
 }
 
-resource "arvan_iaas_abrak" "abrak-1" {
+module "abrak" {
+  source = "./modules/abrak"
+  abrak_name = var.abrak_name
   region = var.region
-  flavor = "g1-1-1-0"
-  name   = var.abrak-name
-  image {
+  abrak_flavor = "g1-1-1-0"
+  abrak_image = {
     type = "distributions"
     name = "debian/11"
   }
-  disk_size = 25
-}
-
-data "arvan_iaas_abrak" "get_abrak_id" {
-  depends_on = [
-    arvan_iaas_abrak.abrak-1
-  ]
-
-  region = var.region
-  name   = var.abrak-name
+  abrak_disk_size = 25
 }

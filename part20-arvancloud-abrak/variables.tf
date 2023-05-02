@@ -1,10 +1,9 @@
 variable "ApiKey" {
   type = string
-  default = "<your API-Key>"
   sensitive = true
 }
 
-variable "abrak-name" {
+variable "abrak_name" {
   type = string
   default = "terraform-abrak-example"
 }
