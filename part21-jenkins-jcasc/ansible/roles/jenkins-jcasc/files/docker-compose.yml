@@ -1,0 +1,10 @@
+version: "3"
+services:
+  jenkins:
+    build: .
+    image: jenkins-jcasc
+    container_name: jenkins-jcasc
+    ports:
+      - "8080:8080"
+    env_file:
+      - jenkins-vars.env
