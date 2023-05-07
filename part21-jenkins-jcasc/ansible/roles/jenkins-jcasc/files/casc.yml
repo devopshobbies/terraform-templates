@@ -1,0 +1,59 @@
+jenkins:
+  systemMessage: "Jenkins configured automatically by Jenkins Configuration as Code plugin\n\nConfigured By: Mohammad Madanipour"
+  numExecutors: 4
+  mode: NORMAL
+  globalNodeProperties:
+    - envVars:
+        env:
+          - key: CREATED_BY
+            value: MOHAMMAD
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+       - id: ${JENKINS_USERNAME}
+         password: ${JENKINS_PASSWORD}
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+tool:
+  git:
+    installations:
+      - name: git
+        home: /bin/git
+  maven:
+    installations:
+      - name: maven3
+        home: "/maven3"
+  jdk:
+    installations:
+      - name: jdk11
+        home: "/jdk"
+credentials:
+  system:
+    domainCredentials:
+      - credentials:
+        - string:
+            scope: GLOBAL
+            id: "token"
+            secret: ${SONAR_SECRET_CREDENTIAL}
+            description: "sonar-token"
+        - usernamePassword:
+            description: "jira"
+            id: "jira"
+            password: ${JIRA_PASSWORD_CREDENTIAL}
+            scope: GLOBAL
+            username: "jira"
+unclassified:
+  location:
+    url: ${JENKINS_URL}
+  sonarglobalconfiguration:
+    buildWrapperEnabled: true
+    installations:
+      - name: "TEST"
+        serverUrl: "http://sonar.test-jcasc:9000"
+        credentialsId: token
+  jiraGlobalConfiguration:
+    sites:
+      - url: "http://jira.test-jcasc.org/"
+        credentialsId: "jira"
