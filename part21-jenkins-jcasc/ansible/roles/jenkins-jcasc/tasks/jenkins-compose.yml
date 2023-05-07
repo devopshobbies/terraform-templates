@@ -1,0 +1,4 @@
+- name: "Run Jenkins Docker-Compose"
+  docker_compose:
+    project_src: "{{ role_path }}/files"
+    state: present
