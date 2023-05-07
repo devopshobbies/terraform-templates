@@ -1,0 +1,7 @@
+- name: "Part1: Docker Installation"
+  import_tasks:
+    file: docker-installation.yml
+
+- name: "Part2: Run Jenkins Instance"
+  import_tasks:
+    file: jenkins-compose.yml
