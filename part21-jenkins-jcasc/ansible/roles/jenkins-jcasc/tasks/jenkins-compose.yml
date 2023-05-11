@@ -1,4 +1,10 @@
+- name: "Define jenkins url value from host ip address"
+  shell: hostname -I | awk '{print $1}'
+  register: jenkins_url
+
 - name: "Run Jenkins Docker-Compose"
   docker_compose:
     project_src: "{{ role_path }}/files"
     state: present
+  environment:
+    JENKINS_URL: "{{ jenkins_url.stdout }}"
