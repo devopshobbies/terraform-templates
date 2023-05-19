@@ -14,6 +14,6 @@ provider "aws" {
 }
 
 
-module "custom-server-1" {
+module "apache_webserver" {
     source = ".//module-1"
 }
