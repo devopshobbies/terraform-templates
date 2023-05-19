@@ -16,4 +16,5 @@ provider "aws" {
 
 module "apache_webserver" {
     source = ".//module-1"
+    ami_id =  "ami_830c94e3"
 }
