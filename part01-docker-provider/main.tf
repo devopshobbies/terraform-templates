@@ -10,7 +10,7 @@ resource "docker_image" "nginx" {
 # -> same as 'docker run --name nginx -p8080:80 -d nginx:latest'
 resource "docker_container" "nginx" {
   # The attribute "latest" is deprecated.
-  image      = docker_image.nginx.latest
+  image      = docker_image.nginx.image_id
   hostname   = var.container_host_name
   name       = var.container_name
   domainname = var.container_host_name
