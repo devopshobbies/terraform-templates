@@ -25,3 +25,5 @@ terrafrom apply
 - Breaking down resources in `main.tf` into separate tf files is also a plus point for better readability.
 
 - Some features like Credential Injection and Session recording solely come by the paid plan. so uncomment them as you wish in `main.tf`.
+
+- If you're utilizing Vault recovery key ensure `recovery_kms_hcl` directives in `provider.tf` to match your Vault transit engine credentials. 
