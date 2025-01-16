@@ -42,3 +42,4 @@ debezium*
 
 # Infra Cost extension auto generated directory
 .infracost
+part18-hetznercloud-provider/simple-vm/ansible_inventory.ini
