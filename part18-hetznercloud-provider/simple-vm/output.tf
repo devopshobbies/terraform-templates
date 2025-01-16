@@ -21,7 +21,7 @@ output "server_status" {
 resource "local_file" "ansible_inventory" {
   content = <<-EOT
     [all]
-    ${hcloud_server.node01.name} ansible_host=${hcloud_server.node01.ipv4_address} ansible_user=root ansible_ssh_private_key_file=~/.ssh/hetzner_ed25519
+    ${hcloud_server.node01.name} ansible_host=${hcloud_server.node01.ipv4_address}
 
     [all:vars]
     ansible_become=true
