@@ -1,0 +1,96 @@
+Locations Data:
+Descriptions:
+
+- Falkenstein DC Park 1
+
+- Nuremberg DC Park 1
+
+- Helsinki DC Park 1
+
+- Ashburn, VA
+
+- Hillsboro, OR
+
+- Singapore
+
+
+Location IDs:
+
+- 1
+
+- 2
+
+- 3
+
+- 4
+
+- 5
+
+- 6
+
+
+Locations Details:
+
+- Name: fsn1
+  City: Falkenstein
+  Country: DE
+  Description: Falkenstein DC Park 1
+  Latitude: 50.47612
+  Longitude: 12.370071
+  Network Zone: eu-central
+
+- Name: nbg1
+  City: Nuremberg
+  Country: DE
+  Description: Nuremberg DC Park 1
+  Latitude: 49.452102
+  Longitude: 11.076665
+  Network Zone: eu-central
+
+- Name: hel1
+  City: Helsinki
+  Country: FI
+  Description: Helsinki DC Park 1
+  Latitude: 60.169855
+  Longitude: 24.938379
+  Network Zone: eu-central
+
+- Name: ash
+  City: Ashburn, VA
+  Country: US
+  Description: Ashburn, VA
+  Latitude: 39.045821
+  Longitude: -77.487073
+  Network Zone: us-east
+
+- Name: hil
+  City: Hillsboro, OR
+  Country: US
+  Description: Hillsboro, OR
+  Latitude: 45.54222
+  Longitude: -122.951924
+  Network Zone: us-west
+
+- Name: sin
+  City: Singapore
+  Country: SG
+  Description: Singapore
+  Latitude: 1.283333
+  Longitude: 103.833333
+  Network Zone: ap-southeast
+
+
+Names:
+
+- fsn1
+
+- nbg1
+
+- hel1
+
+- ash
+
+- hil
+
+- sin
+
