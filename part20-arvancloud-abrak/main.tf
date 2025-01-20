@@ -20,3 +20,30 @@ module "abrak" {
   }
   abrak_disk_size = 25
 }
+
+module "security_group" {
+  source          = "./modules/security_group"
+  sg_name         = "sg-http-access"
+  region          = var.region
+  description     = "Using from devopshobies"
+  attach_to_abrak = false
+  abrak_uuid      = module.abrak.id
+  security_group_rules = [ 
+    {
+      description = "Open http port"
+      direction = "ingress"
+      protocol = "tcp"
+      port_from = "80"
+      port_to = "80"
+      ips = ["0.0.0.0/0"]
+    },
+    {
+      description = "Open https port"
+      direction = "ingress"
+      protocol = "tcp"
+      port_from = "443"
+      port_to = "443"
+      ips = ["0.0.0.0/0"]
+    }
+  ]
+}
