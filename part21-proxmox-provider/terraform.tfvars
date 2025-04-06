@@ -5,7 +5,7 @@
 pm_tls_insecure     = true
 pm_api_url          = "https://172.16.1.1:8007/api2/json"
 pm_api_token_id     = "terraform-prov@pve!terraform"
-pm_api_token_secret = "1a13cf59-efe6-46ee-ae18-31611212cb0a"
+pm_api_token_secret = "------------------------------------------"
 
 #=========================#
 # Proxmox virtual machine #
