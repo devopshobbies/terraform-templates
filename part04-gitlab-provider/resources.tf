@@ -16,6 +16,8 @@ resource "gitlab_repository_file" "text" {
   author_email   = var.gitlab_repository_file_details.author_email
   author_name    = var.gitlab_repository_file_details.author_name
   commit_message = var.gitlab_repository_file_details.commit_message
+  encoding       = "text"    
+
 }
 
 resource "gitlab_repository_file" "git" {
@@ -26,6 +28,8 @@ resource "gitlab_repository_file" "git" {
   author_email   = var.gitlab_repository_file_details.author_email
   author_name    = var.gitlab_repository_file_details.author_name
   commit_message = var.gitlab_repository_file_details.commit_message
+  encoding       = "text"    
+
 }
 
 # Manage license
@@ -51,7 +55,7 @@ resource "gitlab_project_tag" "tag" {
 }
 
 # Add a bug label
-resource "gitlab_label" "bug" {
+resource "gitlab_project_label" "bug" {
   name        = "bug"
   color       = "#000" // Set the color
   description = "This label determines that the issue is reporting a bug"
@@ -63,7 +67,7 @@ resource "gitlab_label" "bug" {
 resource "gitlab_pipeline_schedule" "example" {
   project     = gitlab_project.project.id
   description = "Used to schedule builds"
-  ref         = "master"
+  ref         = "refs/heads/main"
   cron        = "0 1 * * *"
 }
 
@@ -71,7 +75,7 @@ resource "gitlab_pipeline_schedule" "example" {
 # Schedule gitlab_pipeline_schedule_variable
 resource "gitlab_pipeline_schedule_variable" "example" {
   project              = gitlab_project.project.id
-  pipeline_schedule_id = gitlab_pipeline_schedule.example.id
+  pipeline_schedule_id = gitlab_pipeline_schedule.example.pipeline_schedule_id
   key                  = "EXAMPLE_KEY"
   value                = "example"
 }

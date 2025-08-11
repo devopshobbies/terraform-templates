@@ -1,6 +1,6 @@
 variable "gitlab_token" {
   type    = string
-  default = ""
+  default = "glpat-*******"
 }
 
 variable "branch_name" {
