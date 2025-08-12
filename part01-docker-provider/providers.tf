@@ -12,5 +12,5 @@ terraform {
 }
 
 provider "docker" {
-  host = "tcp://localhost:2376"
+  host = var.docker_host
 }

@@ -71,3 +71,6 @@ variable "container_network" {
     name   = "nginx_network"
   }
 }
+variable "docker_host" {
+  default = "tcp://localhost:2376"
+}
