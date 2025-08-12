@@ -10,9 +10,9 @@ terraform {
 
 provider "haproxy" {
   server_addr = "localhost:5555"
-  username    = "admin"
-  password    = "adminpwd"
-  
+  username    = "-----"
+  password    = "-----"
+
   # you may need to allow insecure TLS communications unless you have configured
   # certificates for your server
   insecure = true
